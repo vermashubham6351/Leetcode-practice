@@ -24,7 +24,7 @@ public:
             }
             else if(mid == arr.size()-1)
             {
-                if(arr[mid]>arr[mid-2])
+                if(arr[mid]>arr[mid-1])
                     return mid;
                 else
                     mid-1;
