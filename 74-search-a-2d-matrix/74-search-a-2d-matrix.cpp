@@ -9,7 +9,7 @@ public:
                 return true;
             else if(matrix[i][j]>target)
                 j--;
-           else if(matrix[i][j]<target)
+           else 
             i++;
         }
         return false;
